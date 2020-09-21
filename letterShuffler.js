@@ -4,9 +4,9 @@ const alphabet = ["A", "a", "B", "b", "C", "c", "D", "d", "E", "e", "F", "f", "G
 		const theWord = output.innerHTML.split("");
 		
 		let timer;
-		const iterationSpeed = 5; //the speed of the letter loop iteration
-		const shortDelay = 800; // after each iteration loop, a delay occurs. The two types of delay have different duration and are picked randomly. This is the short type
-		const longDelay = 2000; // This is the longer delay. 
+		const iterationSpeed = 10; //the speed of the letter loop iteration (ms)
+		const shortDelay = 800; // after each loop, a delay occurs. The two types of delay have different duration and are picked randomly. This is the short type (ms)
+		const longDelay = 2000; // This is the longer delay (ms). 
 
 			function start() {
 			let currLetter = 0;
