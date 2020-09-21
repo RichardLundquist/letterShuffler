@@ -1,10 +1,5 @@
 # letterShuffler
-A text animation script written in vanilla Javascript.
-My first complete JS script. If you happen to try it out, please give some feedback! 
 
-How to use it? 
-Add the id "shuffleThis" to whatever html text element that you want animated. 
+WHAT: Animated letter-shuffler in vanilla JS. 
 
-Cheers,
-
-Richard 
+HOW: Attach the ID "shuffleThis" to whatever text element that you want animated. A random letter of the text element at a time will be shuffled through rapidly, creating a glitchy letter effect. 
